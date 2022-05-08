@@ -1,0 +1,51 @@
+$ git init ABD-NSTU
+Initialized empty Git repository in E:/PythonProjects/block_data_management/ABD-NSTU/.git/
+
+$ cd ABD-NSTU
+
+$ touch Resultati_vipolnenia_zadania.txt
+
+$ touch .gitignore
+
+$ touch TDS-28-04-2022.txt
+
+$ git add TDS-28-04-2022.txt
+
+$ git commit -m "Создание репозитория"
+[main (root-commit) dcbf835] Создание репозитория
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 TDS-28-04-2022.txt
+
+$ git branch newone
+
+$ git checkout newone
+Switched to branch 'newone'
+
+$ git diff
+diff --git a/TDS-28-04-2022.txt b/TDS-28-04-2022.txt
+index e69de29..2be2182 100644
+--- a/TDS-28-04-2022.txt
++++ b/TDS-28-04-2022.txt
+@@ -0,0 +1,5 @@
++asdasdas
++asdasd
++
++
++asdasd
+\ No newline at end of file
+
+$ git restore TDS-28-04-2022.txt
+
+$ git commit -am 'commit newone'
+
+$ git status
+On branch newone
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+
+
